@@ -1,0 +1,5 @@
+FROM centos:7
+
+ADD bin/clusterresourceoverride-operator /usr/bin
+
+ENTRYPOINT ["/usr/bin/clusterresourceoverride-operator"]
